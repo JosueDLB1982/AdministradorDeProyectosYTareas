@@ -1,10 +1,11 @@
+import { Fragment } from "react"
 import Sidebar from "../layout/Sidebar"
 
 
 
 const Projects = () => {
     return (
-        <>
+        <Fragment>
 
             <div className="contenedor-app">
 
@@ -24,7 +25,7 @@ const Projects = () => {
 
             </div>
 
-        </>
+        </Fragment>
 
     )
 }
