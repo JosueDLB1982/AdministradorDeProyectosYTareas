@@ -2,9 +2,9 @@
 
 const Task = () => {
     return (
-        <div>
-
-        </div>
+        <p>
+            Desde Task.js
+        </p>
     )
 }
 
