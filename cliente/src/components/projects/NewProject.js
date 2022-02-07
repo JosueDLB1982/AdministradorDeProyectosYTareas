@@ -53,7 +53,6 @@ const NewProject = () => {
                     placeholder="Nombre Proyecto"
                     name="name"
                     onChange={onChangeProject}
-                    htmlForm=""
                     value={name}
                 />
 
