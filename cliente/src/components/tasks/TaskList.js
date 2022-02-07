@@ -15,15 +15,22 @@ const TaskList = () => {
             <h2>Proyecto: Tienda Virtual</h2>
 
             <ul className="listado-tareas">
+                
                 {projectTasks.length === 0
-                    ? (<li className="tarea"><p>No hay Tasks</p></li>)
+                    ? ( <li className="tarea"><p>No hay Tasks</p></li> )
                     : projectTasks.map(task => (
                         <Task
                             task={task}
                         />
-                    ))
+                    ))   
                 }
             </ul>
+            <button
+                type="button"
+                className="btn btn-eliminar"
+            >
+                Eliminar Proyecto &times;
+            </button>
         </Fragment>
     )
 }
