@@ -1,6 +1,7 @@
 import { Fragment } from "react"
 import Header from "../layout/Header"
 import Sidebar from "../layout/Sidebar"
+import TaskForm from "../tasks/TaskForm"
 
 
 
@@ -12,8 +13,9 @@ const Projects = () => {
                 <div className="seccion-principal">
                     <Header />
                     <main>
+                        <TaskForm />
                         <div className="contenedor-tareas">
-                            
+
                         </div>
                     </main>
                 </div>
